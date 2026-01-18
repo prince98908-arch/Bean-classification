@@ -20,7 +20,7 @@ bean_types = ['BARBUNYA', 'BOMBAY', 'CALI', 'DERMASON', 'HOROZ', 'SEKER', 'SIRA'
 
 # --- UI Header ---
 st.title("🌱 Dry Bean Type Classification")
-st.markdown("Side panel mein diye gaye **Sliders** ko adjust karke bean ki properties set karein aur prediction check karein.")
+st.markdown("Devloped by PRINCE RAJPUT")
 
 # --- Sidebar Input with Sliders ---
 st.sidebar.header("Adjust Bean Measurements")
@@ -77,7 +77,7 @@ with col2:
         st.success(f"Detechted Bean Type: ### **{result}**")
         
         # Visual indicator (optional)
-        st.info(f"The model is highly confident that this is a {result} bean.")
+        st.info(f"Thank u for visiting here :- this is a {result} bean.")
 
 # --- Deployment Note ---
 st.divider()
